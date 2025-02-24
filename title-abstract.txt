@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Designing an Energy-Efficient Hardware Accelerator for Deep Learning
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Efficient floating-point operations are a significant challenge in large neural networks and other computationally intensive machine learning algorithms, where energy consumption and latency are key constraints. In this report, we present an implementation of the linear-complexity multiplication (\lmul) algorithm designed to approximate floating point multiplication using addition \citep{luo2024addition}. By leveraging this approximation, \lmul achieves high precision with significantly lower computational cost than traditional floating point multiplication methods.  Our goal with this project is to develop a working simulation of a processor that can run machine learning models such as a multilayer perception or a transformer. The core of this processor is a matrix multiplication module utilizing the \lmul algorithm to achieve faster and more efficient processing of machine learning models. This approach aims to reduce energy consumption and processing time, making AI systems more sustainable and cost-effective.
